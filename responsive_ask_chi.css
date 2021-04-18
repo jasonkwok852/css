@@ -1,0 +1,33 @@
+body{
+font-family:微軟正黑體;
+font-size: 14px; 
+}
+
+.table-style{
+width:100%;
+border: 0px solid black;
+}
+
+.title-style{
+font-family:微軟正黑體;
+font-size: 16px; 
+font-style: normal;  
+word-spacing: 0px;
+background-color: #22345c;
+}
+
+
+.span-style{
+font-family:微軟正黑體; 
+font-weight: bold;
+font-size: 14px; 
+font-style: normal; 
+color:white;
+}
+
+.span-style-content{
+font-family:微軟正黑體;
+font-size: 14px; 
+color:black;
+vertical-align: top;
+}
