@@ -3,27 +3,6 @@ font-family: Arial,sans-serif;
 font-size:20px;
 }
 
-.t, a:link {
-color:#696969;
-text-align: left;
-text-decoration: none;
-}
-
-.t, a:hover {
-color: #000080;
-text-decoration: none;
-}
-
-.t, a:active {
-color: #ffffff;
-text-decoration: none;
-}
-
-.t, a:visited {
-color:#696969;
-text-decoration: none;
-}
-
 .line{
 border:5px solid #ff9933;
 width:100px;
