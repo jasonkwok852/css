@@ -26,7 +26,13 @@
    }
 
 .top-10-table-td-product{
-   width:80%;
+   width:60%;
+   background-color:#e6e6e6; 
+   height: 100px;
+}
+
+.top-10-table-td-info{
+   width:20%;
    background-color:#e6e6e6; 
    height: 100px;
 }
@@ -74,13 +80,19 @@
    }
 
 .top-10-table-td{
-   width:30%;
+   width:20%;
    background-color:#e6e6e6; 
    height: 100px;
    }
 
 .top-10-table-td-product{
-   width:70%;
+   width:60%;
+   background-color:#e6e6e6; 
+   height: 100px;
+}
+
+.top-10-table-td-info{
+   width:20%;
    background-color:#e6e6e6; 
    height: 100px;
 }
