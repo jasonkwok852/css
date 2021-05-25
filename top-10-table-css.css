@@ -62,7 +62,7 @@
 
 .top-10-text{
    font-family: Arial,sans-serif; 
-   font-size: 100px;
+   font-size: 20px;
    font-style: normal;  
    color:#ffffff;
    text-shadow: 2px 2px 4px #000000;
@@ -107,6 +107,6 @@
 
 .top-10-text{
    font-family: Arial,sans-serif; 
-   font-size: 50px;
+   font-size: 20px;
   }
 }
