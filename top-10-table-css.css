@@ -71,6 +71,8 @@
    width:200px;
    border:10px solid #ffffff;
    } 
+
+}
 @media (max-width: 600px) {
 
 .top-10-flex-container-div {
@@ -107,3 +109,4 @@
    font-family: Arial,sans-serif; 
    font-size: 50px;
   }
+}
