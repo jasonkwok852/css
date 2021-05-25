@@ -67,12 +67,12 @@
    color:#ffffff;
    text-shadow: 2px 2px 4px #000000;
    }
+
 .top-10-hr{
    width:200px;
    border:10px solid #ffffff;
    } 
 
-}
 @media (max-width: 600px) {
 
 .top-10-flex-container-div {
