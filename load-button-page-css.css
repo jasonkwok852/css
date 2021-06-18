@@ -2,19 +2,14 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  width:80%;
   margin-top:5%;
-  margin-left:15%;
-  margin-right:15%;
   margin-bottom:5%;
 }
 
 @media screen and (max-width: 600px) {
 .flex-container {
    flex-direction: column;
-  margin-top:5%;
-  margin-left:10%;
-  margin-right:10%;
-  margin-bottom:5%;
   }
 }
 
