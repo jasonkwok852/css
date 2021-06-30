@@ -38,10 +38,6 @@ display: block;
 display: block;
 }
 
-.list .list-element:nth-child(9) {
-display: block;
-}
-
 .flex-container {
 display: flex;
 flex-wrap: wrap;
