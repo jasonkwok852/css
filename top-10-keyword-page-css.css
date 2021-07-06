@@ -38,13 +38,6 @@ display: block;
 display: block;
 }
 
-.list .list-element:nth-child(9) {
-display: block;
-}
-
-.list .list-element:nth-child(10) {
-display: block;
-}
 
 .flex-container {
 display: flex;
