@@ -1,13 +1,14 @@
 .product-heading{
-  font-family: Arial,sans-serif; 
+  font-family: Arial; 
   font-size: 25px; 
   font-style: normal;  
   color: #000000;
   text-align: left;
+  margin-bottom:0px;
 }
 
-.product-text{
-  font-family: Arial,sans-serif; 
+.product-sub-title{
+  font-family: Arial; 
   font-size: 20px; 
   font-style: normal;  
   text-align: left;
