@@ -1,15 +1,16 @@
 .product-heading{
-  font-family:微軟正黑體;sans-serif; 
-  font-size: 25px; 
-  font-weight: 500;
+  font-family:微軟正黑體;
+  font-size: 30px; 
   font-style: normal;  
   color: #000000;
   text-align: left;
+  margin-bottom:0px;
 }
 
-.product-text{
-  font-family:微軟正黑體;sans-serif; 
-  font-size: 20px; 
+.product-sub-title{
+  font-family:微軟正黑體;
+  font-size: 25px; 
+  color: #000000;
   font-style: normal;  
   text-align: left;
 }
