@@ -1,5 +1,4 @@
 .product-heading{
-  font-family: Arial; 
   font-size: 25px; 
   font-style: normal;  
   color: #000000;
@@ -8,7 +7,6 @@
 }
 
 .product-sub-title{
-  font-family: Arial; 
   font-size: 20px; 
   font-style: normal;  
   text-align: left;
