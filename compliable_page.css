@@ -13,17 +13,4 @@
   text-align: left;
 }
 
-.responsive-table{
-position:relative;
-left:10%;
-right:10%;
-width:80%;
 
-@media (max-width: 600px) {
-
-.responsive-table{
-position:relative;
-left:0;
-width:100%;
-}
-}
