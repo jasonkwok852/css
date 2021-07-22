@@ -1,7 +1,7 @@
 
 .list-element {
 box-shadow: 0px 0px 6px 0px #848484;
-margin:10px;
+margin:0px;
 display: none;
 }
 
@@ -40,7 +40,6 @@ display: block;
 
 
 .flex-container {
-left:0;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
