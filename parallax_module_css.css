@@ -1,13 +1,8 @@
-.parallax-box {
-box-shadow: 0px 0px 6px 0px #848484;
-align-content: center;
-margin:10px;
-}
 
 .card-size-style{
 box-shadow: 0px 0px 6px 0px #848484;
 width: 25rem; 
-margin:10px auto 0px;;
+margin:10px;
 }
 
 
