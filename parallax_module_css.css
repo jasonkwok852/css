@@ -1,6 +1,5 @@
 .flex-container {
-display: flex;
-max-width:80%;
+max-width:100%;
 align-content: center;
 }
 
