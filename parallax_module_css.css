@@ -1,3 +1,9 @@
+.flex-container {
+display: flex;
+max-width:80%;
+align-content: center;
+}
+
 .parallax-box {
 box-shadow: 0px 0px 6px 0px #848484;
 vertical-align:middle;
