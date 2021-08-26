@@ -1,13 +1,16 @@
+.parallax-box {
+box-shadow: 0px 0px 6px 0px #848484;
+margin:10px;
+}
 
 .card-size-style{
 box-shadow: 0px 0px 6px 0px #848484;
 width: 25rem; 
-margin:10px;
+padding:10px;
 }
 
 
 @media (max-width: 600px) {
-
 .card-size-style{
 width: 30rem; 
 }
