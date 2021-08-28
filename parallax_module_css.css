@@ -9,12 +9,12 @@ box-shadow: 0px 0px 6px 0px #848484;
 vertical-align:middle;
 align-content: center;
 margin:10px;
+min-height: 200px;
 }
 
 .card-size-style{
 width: 25rem; 
 padding:10px;
-min-height: 200px;
 }
 
 
