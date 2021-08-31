@@ -1,17 +1,17 @@
 .parallax-box {
-    box-shadow: 0px 0px 6px 0px #848484;
-    vertical-align:middle;
-    margin:10px;
-    }
+box-shadow: 0px 0px 6px 0px #848484;
+vertical-align:middle;
+margin:10px;
+}
     
 
 .flex-container {
-justify-content: center;
 max-width:100%;
 margin:5%;
 overflow: auto;
 display: flex;
 flex-direction: row;
+justify-content: center;
 }
 
 .card-size-style{
