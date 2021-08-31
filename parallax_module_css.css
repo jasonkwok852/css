@@ -8,7 +8,7 @@ margin:10px;
 .flex-container {
 max-width:100%;
 overflow: auto;
-display:inline-grid;
+display:flex;
 justify-content: center;
 }
 
