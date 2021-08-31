@@ -1,0 +1,52 @@
+.div-affiliates{
+margin-left:5%;
+}
+
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+max-width:100%;
+margin-left:5%;
+margin-right:5%;
+}
+
+.card-size-style{
+border-top: 8px solid #FFB300;
+background-color: FFFFFF;
+width: 25rem; 
+padding:10px;
+margin:10px;
+box-shadow: 0px 0px 6px 0px #848484;
+}
+
+
+.card-content-number{
+font-size: 45px;
+font-family: Arial,  sans-serif;
+font-weight: bold;
+padding-left:5px;
+color:22345C;
+}
+
+.card-content-title{
+font-size: 30px;
+font-family: Arial,  sans-serif;
+font-weight: bold;
+}
+
+
+
+@media (max-width: 600px) {
+.flex-container {
+flex-direction: column;
+
+}
+
+.card-size-style{
+width: 30rem; 
+}
+
+}
+
