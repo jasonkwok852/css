@@ -41,6 +41,9 @@ font-weight: bold;
 @media (max-width: 600px) {
 .flex-container {
 flex-direction: column;
+max-width:100%;
+margin-left:5%;
+margin-right:5%;
 
 }
 
