@@ -7,7 +7,6 @@ margin-left:5%;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-width:100%;
 }
 
 .card-size-style{
@@ -37,7 +36,7 @@ font-weight: bold;
 
 
 @media (max-width: 600px) {
-.flex-container {
+.container-fluid {
 flex-direction: column;
 
 }
