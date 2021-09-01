@@ -3,16 +3,18 @@ margin-left:5%;
 }
 
 
-.container-fluid {
+.flex-container {
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-align-items: center;
+max-width:100%;
+margin-left:5%;
+margin-right:5%;
 }
 
 .card-size-style{
 border-top: 8px solid #FFB300;
-background-color: #ffffff;
+background-color: FFFFFF;
 width: 25rem; 
 padding:10px;
 margin:10px;
@@ -37,7 +39,7 @@ font-weight: bold;
 
 
 @media (max-width: 600px) {
-.container-fluid {
+.flex-container {
 flex-direction: column;
 
 }
