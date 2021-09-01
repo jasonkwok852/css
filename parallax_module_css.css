@@ -1,8 +1,6 @@
 .flex-container {
-max-width:90%;
+max-width:100%;
 justify-content: center;
-margin-left:5%;
-margin-right:5%;
 }
 
 .parallax-box {
