@@ -19,13 +19,9 @@ align-content: center;
 
 .div-content-box{
 margin:5%;
+align-content: left;
 }
 
-
-.ul-content{
-margin:5px;
-
-}
 
 @media (max-width: 600px) {
 
