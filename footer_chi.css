@@ -31,4 +31,5 @@ margin:5px;
 
 .flex-container {
 flex-direction: column;
+align-content: left;
 }
