@@ -43,8 +43,11 @@ display: block;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-max-width:100%;
-align-content: center;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+justify-content: center;
+border: 3px solid #73AD21;
 }
 
 .card-size-style{
