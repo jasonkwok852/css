@@ -1,0 +1,32 @@
+<style>
+
+    .smhk-channel-page-table{
+    margin:10px;
+    padding:15px;
+    box-shadow: 5px 10px inset #cfcfcf;
+    }
+  
+    .smhk-channel-page-link{
+    font-weight: bold;
+    color: #000000; 
+    }
+
+    .smhk-channel-page-div-box{
+    width:fit-content;
+    border-left-style: solid; 
+    border-width: 5px;
+    margin:3px;
+    }
+
+    .smhk-channel-page-flex-container {
+    display: flex;
+    flex-direction: row;
+    }
+    @media (max-width: 600px) {
+
+    .smhk-channel-page-flex-container {
+    flex-direction: column;
+    align-content: left;
+    }
+
+</style>
