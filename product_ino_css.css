@@ -1,0 +1,19 @@
+.product-heading{
+  font-size: 30px; 
+  font-style: normal;  
+  color: #000000;
+  text-align: left;
+  margin-bottom:0px;
+}
+
+.product-sub-title{
+  font-size: 25px; 
+  color: #000000;
+  font-style: normal;  
+  text-align: left;
+}
+
+.product-image{
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
