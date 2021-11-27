@@ -1,0 +1,28 @@
+.table-style{
+width:100%;
+border: 0px solid black;
+}
+
+.title-style{
+font-family: Arial,sans-serif; 
+font-size: 16px; 
+font-style: normal;  
+word-spacing: 0px;
+background-color: #22345c;
+}
+
+
+.span-style{
+font-family: Arial,sans-serif; 
+font-weight: bold;
+font-size: 14px; 
+font-style: normal; 
+color:white;
+}
+
+.span-style-content{
+font-family: Arial,sans-serif; 
+font-size: 14px; 
+color:black;
+vertical-align: top;
+}
