@@ -1,0 +1,26 @@
+.line{
+border:5px solid #ff9933;
+width:100px;
+margin-left:0
+}
+
+
+.flex-container-footer {
+display: flex;
+flex-direction: row;
+max-width:100%;
+align-content: center;
+}
+
+.div-content-box{
+margin:5%;
+align-content: left;
+}
+
+
+@media (max-width: 600px) {
+
+.flex-container-footer {
+flex-direction: column;
+align-content: left;
+}
