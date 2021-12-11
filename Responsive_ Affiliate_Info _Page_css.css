@@ -1,0 +1,12 @@
+.flex-container-affiliate {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  padding:10px;
+}
+
+@media (max-width: 600px) {
+  .flex-container-affiliate {
+    flex-direction: column;
+  }
+}
