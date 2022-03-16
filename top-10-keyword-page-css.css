@@ -3,14 +3,16 @@
   height: auto;
 }
 
+.list-size{
+width:250px;
+height:400px;
+margin:5px;
+}
 
 .list-element {
 box-shadow: 0px 0px 6px 0px #848484;
 display: none;
 padding:5px;
-width:250px;
-height:400px;
-margin:5px;
 }
 
 #loadmore {
