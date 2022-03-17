@@ -65,4 +65,10 @@ justify-content: center;
 flex-direction: column;
 }
 
+.list-size{
+width:350px;
+height:400px;
+margin:5px;
+}  
+  
 }
