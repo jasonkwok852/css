@@ -7,6 +7,17 @@
 width:250px;
 height:400px;
 margin:5px;
+position: relative; 
+}
+
+.bottom_button{
+  position: absolute;
+  bottom: 5px;
+}
+
+.title_div{
+  position: absolute;
+  top: 60%;
 }
 
 .list-element {
