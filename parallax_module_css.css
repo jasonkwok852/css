@@ -19,5 +19,5 @@ position: relative;
 
 .title_div{
   position: absolute;
-  bottom: 50px;
+  top: 50px;
 }
