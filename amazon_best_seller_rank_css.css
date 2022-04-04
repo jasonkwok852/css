@@ -15,8 +15,41 @@
   height:260px;
 }
 
-
 .self_table_tr{
   border-bottom: 2px dotted #22345C;
   font-size:20px;
+}
+
+.title_text{
+
+  background: #000262;
+  background: -webkit-linear-gradient(to right, #000262, #fb9733);
+  background: linear-gradient(to right, #000262, #fb9733);
+  -webkit-background-clip: text;
+  
+  background-clip: text;
+  
+  color: transparent;
+
+
+
+  font-size: 35px;
+}
+
+.sub_title_text{
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.rank_number{ 
+ color: white;
+ float: left;
+ text-shadow: 2px 2px 4px #000000;
+ font-size: 100px;
+}
+
+.best_seller_name{
+ margin:5px;
+ font-size: 30px;
 }
