@@ -35,6 +35,7 @@
 
 .best_seller_div{
 	overflow: visible;
+	display: block;
 }
 
 .rank_number{
