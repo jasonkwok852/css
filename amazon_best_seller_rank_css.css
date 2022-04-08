@@ -1,46 +1,49 @@
 .self_div_container{
-  border-left: 10px solid #FFA600;
-  margin-top:40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-left: 10px solid #FFA600;
+	margin-top:15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .self_div_best_seller{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  width:150px;
-  height:260px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width:150px;
+	height:260px;
 }
 
 .self_table_tr{
-  border-bottom: 2px dotted #22345C;
-  font-size:20px;
+	border-bottom: 2px dotted #22345C;
+	font-size:20px;
 }
 
 .title_text{
-  color: #ffffff;
-  text-shadow: 2px 2px 4px #000000;
-  font-size: 20px;
+	color: #ffffff;
+	text-shadow:2px 2px 4px #000000;
+	font-size:20px;
 }
 
 .sub_title_text{
-  background: #000262;
-  background: -webkit-linear-gradient(to right, #000262, #fb9733);
-  background: linear-gradient(to right, #000262, #fb9733);
-  -webkit-background-clip: text; 
-  background-clip: text; 
-  color: transparent;
+	background:#000262;
+	background: -webkit-linear-gradient( to right, #000262, #fb9733);
+	background: linear-gradient(to right,#000262,#fb9733);
+	-webkit-background-clip: text;
+	background-clip:text;
+  color:transparent;
 }
 
-.rank_number{ 
- color: white;
- float: left;
- text-shadow: 2px 2px 4px #000000;
- font-size: 100px;
+.best_seller_div{
+	overflow: visible;
+}
+
+.rank_number{
+	color:#ffffff;
+	text-shadow:2px 2px 4px #000000;
+	font-size:100px;
 }
 
 .best_seller_name{
- margin:5px;
- font-size: 30px;
+	margin:10px;
+	font-size:30px;
 }
