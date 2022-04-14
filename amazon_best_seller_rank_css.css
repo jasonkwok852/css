@@ -1,7 +1,8 @@
-.self_div_container{
+ .self_div_container{
 	border-left: 10px solid #FFA600;
 	margin-top:15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: none;
 }
 
 .self_div_best_seller{
@@ -30,12 +31,13 @@
 	background: linear-gradient(to right,#000262,#fb9733);
 	-webkit-background-clip: text;
 	background-clip:text;
-  color:transparent;
+        color:transparent;
 }
 
 .best_seller_div{
 	overflow: visible;
-	display: block;
+        display: grid;
+        grid-template-columns: 8% 30% 1% auto;
 }
 
 .rank_number{
@@ -46,4 +48,55 @@
 
 .best_seller_name{
 	margin:10px;
+	font-size:20px;
 }
+
+.bottom_button{
+  position: absolute;
+  bottom: 30px;
+}
+
+
+#loadmore {
+margin: 30px auto 30px;
+display: table;
+}
+
+
+
+.self_div_container:nth-child(1) {
+display: block;
+}
+
+.self_div_container:nth-child(2) {
+display: block;
+}
+
+.self_div_container:nth-child(3) {
+display: block;
+}
+
+.self_div_container:nth-child(4) {
+display: block;
+}
+
+.self_div_container:nth-child(5) {
+display: block;
+}
+
+.self_div_container:nth-child(6) {
+display: block;
+}
+
+.self_div_container:nth-child(7) {
+display: block;
+}
+
+@media (max-width: 600px) {
+
+.best_seller_div{
+        grid-template-columns: 10% 60% 1% auto;
+}
+
+}
+
