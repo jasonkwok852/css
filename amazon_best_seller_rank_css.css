@@ -1,4 +1,4 @@
- .self_div_container{
+  .self_div_container{
 	border-left: 10px solid #FFA600;
 	margin-top:15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -14,30 +14,42 @@
 	height:260px;
 }
 
-.self_table_tr{
-	border-bottom: 2px dotted #22345C;
-	font-size:20px;
-}
-
 .title_text{
 	color: #ffffff;
 	text-shadow:2px 2px 4px #000000;
 	font-size:20px;
 }
 
-.sub_title_text{
+.title_category_text{
 	background:#000262;
 	background: -webkit-linear-gradient( to right, #000262, #fb9733);
 	background: linear-gradient(to right,#000262,#fb9733);
 	-webkit-background-clip: text;
 	background-clip:text;
         color:transparent;
+	font-size:25px;
+}
+
+.sub_title_text{
+       color:#000000;
+}
+
+.top_10_text{
+        border-radius: 10px;
+        background: #bdbdbd;
+        width:200px;
+        text-align: center;
+	color:#000080;
+	font-size:15px;
+	margin-top:20px;
+        font-weight: 600;
 }
 
 .best_seller_div{
+  display: flex;
+  flex-direction: row;
+flex-wrap:nowrap;
 	overflow: visible;
-        display: grid;
-        grid-template-columns: 8% 30% 1% auto;
 }
 
 .rank_number{
@@ -47,9 +59,24 @@
 }
 
 .best_seller_name{
-	margin:10px;
+margin-top:30px;
 	font-size:20px;
 }
+
+.badge_arrow{
+background-color:#009933;
+margin-top:10px;
+width:25px;
+height:15px;
+text-align: center;
+}
+
+.last_month_pos{
+margin-top:10px;
+ width:200px;
+font-size:10px;
+}
+
 
 .bottom_button{
   position: absolute;
@@ -92,11 +119,16 @@ display: block;
 display: block;
 }
 
-@media (max-width: 600px) {
-
+@media(max-width:600px){
 .best_seller_div{
-        grid-template-columns: 10% 60% 1% auto;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
+.best_seller_name{
+margin-top:15px;
 }
 
+.badge_arrow{
+margin-top:30px;
+}
