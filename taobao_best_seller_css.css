@@ -16,3 +16,19 @@ padding-top:5px;
 .tb_bs_table{
 width:1200px;
 }
+
+.top_10_title{
+	color: #ffffff;
+	text-shadow:2px 2px 4px #000000;
+	font-size:20px;
+}
+
+.title_category{
+  background: #ff8000; 
+  background: -webkit-linear-gradient(to right, #ff8000, #000080); 
+  background: linear-gradient(to right, #ff8000, #000080);  
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+  font-size:25px;
+}
