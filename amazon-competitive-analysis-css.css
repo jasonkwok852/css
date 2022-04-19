@@ -2,6 +2,11 @@
 margin-left:5%;
 }
 
+.title_css{
+	color: #ffffff;
+	text-shadow:2px 2px 4px #000000;
+	font-size:21px;
+}
 
 .flex-container {
 display: flex;
