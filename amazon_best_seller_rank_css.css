@@ -35,7 +35,9 @@
 }
 
 .store_info_div{
+   padding:10px;.store_info_div{
    padding:10px;
+}
 }
 
 .store_data_div{
@@ -48,7 +50,7 @@
 }
 
 .store_data_name{
-   padding-left:10px;
+
    background-color: lightgrey;
    font-weight: bold;
    font-size:10px;
@@ -57,7 +59,7 @@
 .store_data_number{
   color: #FFA600;
   font-weight: bold;
-  font-size:40px;
+  font-size:30px;
 }
 
 .badge_arrow_up{
@@ -121,25 +123,18 @@
 }
 
 .store_info_div{
- margin-bottom:0px;
-}
-
-.best_seller_name{
- padding-bottom:0px;
+   padding:0px;
 }
 
 .store_data_div{
  border-style: none;
- height:60px;
- margin:0px;
+ padding:0px;
 }
 
 .store_data_name{
  font-size:8px;
- margin:0px;
 }
 
 .store_data_number{
  font-size:15px;
- margin:0px;
 }
