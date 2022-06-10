@@ -1,6 +1,6 @@
 .parallax_module_content_container{
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   padding: 10px;
   justify-content: center;
