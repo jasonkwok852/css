@@ -20,11 +20,8 @@
   font-size:70px;
 }
 
-.parallax_module_subtitle{
-  padding-top:10px;
-  text-shadow: 2px 2px 4px #000000;  
-  font-weight:bold; 
-  font-size:20px;
+.parallax_module_button{
+ width:250px;
 }
 
 @media (max-width: 600px) {
@@ -37,6 +34,4 @@
   font-size:50px;
 }
 
-.parallax_module_subtitle{ 
-  font-size:20px;
 }
