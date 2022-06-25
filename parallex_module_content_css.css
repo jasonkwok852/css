@@ -10,6 +10,7 @@
 }
 
 .parallax_module_item {
+  width:250px;
   padding: 20px;
 }
 
@@ -20,9 +21,6 @@
   font-size:70px;
 }
 
-.parallax_module_button{
- width:250px;
-}
 
 @media (max-width: 600px) {
 .parallax_module_content_container {
