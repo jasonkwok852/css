@@ -10,7 +10,6 @@
 }
 
 .parallax_module_item {
-  width:250px;
   padding: 20px;
 }
 
@@ -19,6 +18,7 @@
   text-shadow: 2px 2px 4px #000000;
   font-weight:bold; 
   font-size:70px;
+  white-space: nowrap;
 }
 
 
@@ -27,5 +27,9 @@
  display: flex;
  flex-direction: column;
 }
+  
+.parallax_module_title{
+  font-size:50px;
+}  
 
 }
