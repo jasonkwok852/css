@@ -69,7 +69,7 @@
   display: flex;
   flex-direction: row;
   width:100%;
-  height:420px;
+  height:auto;
 }
 
 .best_seller_data_div{
@@ -78,7 +78,7 @@
   justify-content: center;
   margin:10px;
   width:180px;
-  height:320px;
+  height:350px;
   position:relative;
 }
 
