@@ -95,8 +95,9 @@
 
 
 
-kbd{
+ .best_seller_category{
   margin-left:2px;
+  width:auto;
   border-radius: 5px;
   font-weight:bold;
   font-size:10px;
