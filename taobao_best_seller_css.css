@@ -19,91 +19,50 @@
 }
 
 .best_selling_store_container{
-    display: grid; 
-    grid-template-columns: 10% auto auto auto auto;
-    align-content: flex-start;
-    border-left: 10px solid #FFA600;
-    margin-top:25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
 }
 
 
 .rank_number{
-   color:#ffffff;
-   text-shadow:2px 2px 4px #000000;
-   font-size:100px;
-   padding-bottom:20px;
+        background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+	font-size:120px;
+        font-weight: bold;
 }
 
-.last_month_rank{
-  font-weight: bold;
+.rank_up{
+  color:#009933;
+  font-weight:bold;
+  font-size:12px;
 }
 
-.badge_arrow_up{
-  background-color:#009933;
-  width:25px;
-  height:15px;
-  text-align: center;
+.rank_down{
+  color:#ff0000;
+  font-weight:bold;
+  font-size:12px;
 }
 
-.badge_arrow_down{
-  background-color:#ff0000;
-  width:25px;
-  height:15px;
-  text-align: center;
+.rank_same{
+  color:#787878;
+  font-weight:bold;
+  font-size:12px;
 }
 
-.badge_arrow_same{
-  background-color:#787878;
-  width:25px;
-  height:15px;
-  text-align: center;
-}
-
-.category_name{
-  margin:5px;
+.top_10_products{
   padding-left:5px;
-  font-size:20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:15px;
+  font-weight:bold;
 }
 
-.category_name_box{
- margin:5px;
- padding:2px;
- border-radius: 10px;
- border: 2px solid #FFA600;
- width:150px;
- color:#000000;
- font-size:15px;
- font-weight: bold;
-}
-
-.store_data_name{
-   width:150px;
-   margin:5px;
-   border-radius: 10px;
-   border: 2px solid #FFA600;
-   padding:2px;
-   font-weight: bold;
-   font-size:15px;
-}
-
-.store_data_number{
-  padding:2px;
-  color: #FFA600;
-  font-weight: bold;
+.best_seller_category_title{
+  color: #000000;
+  font-weight:bold;
   font-size:30px;
-}
-
-.top_10_product_text{
- margin-left:5px;
- border-radius: 10px;
- background-color: #FFA600;
- width:200px;
- text-align: center;
- color:#000033;
- font-size:15px;
- margin-top:20px;
- font-weight: 600;
 }
 
 .best_seller_data_container{
@@ -111,43 +70,81 @@
   flex-direction: row;
 }
 
-.self_div_best_seller{
+.best_seller_data_div{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
   justify-content: center;
   margin:10px;
-  width:150px;
-  height:300px;
+  width:180px;
+  height:320px;
   position:relative;
 }
 
 .best_seller_img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  height:auto;
 }
 
-.best_seller_name{
-  font-size:13px;
-  word-wrap: break-word;
-  width: 150px; 
+.best_seller_store{
+  margin-left:2px;
+  font-size:18px;
+  font-weight:bold;
 }
 
-.best_seller_button{
+.best_seller_category{
+  margin-left:2px;
+  border-radius: 5px;
+  font-weight:bold;
+  font-size:10px;
+  border: 2px solid #8c8c8c;
+  background-color:#b3b3b3;
+  color:#ffffff;
+  padding: 1px;
+  width:30%;
+  text-align: center;
+}
+
+.button_icon{
+  width:25px;
+  height:25px;
+}
+
+.taobao_button{
  position: absolute;
- bottom:0px;
- width:100%;
+ bottom:5px;
+ margin-top:30px;
+ margin-left:5%;
+ margin-right:5%;
+ padding:10px;
+ width:90%;
+ height:40px;
+ border-radius: 10px;
+ background-color: #fc4f00;
+ text-align: center;
+ color:#ffffff;
+ font-size:15px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (max-width: 600px) {
+.taobao_button:hover {
+  background-color: #ff9900;
+  color: white;
+}
+
+hr.dotted{
+ border-top:2px dotted #bbb;
+}
+
+
+@media (max-width: 576px) { 
 
 .best_selling_store_container {
      display: flex;
      flex-direction: column;
 }
 
-.store_info_container{
-     display: flex;
-     flex-direction: column;
+.best_seller_category_title{
+    margin-top:35px;
 }
 
 }
