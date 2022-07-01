@@ -53,7 +53,7 @@
   background-color: #E52E04;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
 .self_dropshipping_container {
      display: flex;
      flex-direction: column;
