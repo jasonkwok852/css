@@ -85,6 +85,19 @@
 .best_seller_img{
   width: 100%;
   height:auto;
+  position:relative;
+}
+
+.best_seller_text_block {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border: 2px solid #2b133d;
+  background-color:#b2f900;
+  color:#2b133d;
+  padding:5px;
+  font-weight:bold;
+  font-size:20px;
 }
 
 .best_seller_store{
