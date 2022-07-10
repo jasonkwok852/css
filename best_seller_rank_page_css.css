@@ -4,18 +4,6 @@
   align-items: center;
 }
 
-.nav_tabs_div{
-  margin-top:5px;
-  width:50%;
-}
-
-.nav-pills {
-  text-align: center;
-  font-size:18px;
-  padding: 14px;
-  text-decoration: none;
-  border-radius: 5px;
-}
 
 .flex-container {
  display: flex;
@@ -68,9 +56,6 @@
  height:400px;
 }
 
-.nav_tabs_div{
-  width:80%;
-}
-
   
 }
+
