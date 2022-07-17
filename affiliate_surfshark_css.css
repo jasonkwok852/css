@@ -1,0 +1,68 @@
+.flex-container-affiliate {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  padding:10px;
+}
+
+.title_text{
+	background:#000262;
+	background: -webkit-linear-gradient( to right, #000262, #fb9733);
+	background: linear-gradient(to right,#000262,#fb9733);
+	-webkit-background-clip: text;
+	background-clip:text;
+        color:transparent;
+	font-size:25px;
+}
+
+.vpn_no{
+  color:#cc0000;
+}
+
+.vpn_ok{
+  color:#009926;
+}
+
+.td_title{
+ font-size:10px;
+ font-weight:bold;
+}
+
+.vpn_icon_img{
+  border-radius: 10px;
+  width: 120px;
+  height:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tv_channel_img{
+  border-radius: 10px;
+  width: 120px;
+  height:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price_button{
+  background-color: #ff0066;
+  border: none;
+  color:  #ffffff;
+  text-align: center;
+  padding:10px;
+  width:240px;
+  height:40px;
+  border-radius: 10px;
+  font-size:15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price_button:hover {
+  background-color:  #ffffff;
+  color: #ff0066;
+}
+
+
+@media (max-width: 576px) {
+  .flex-container-affiliate {
+    flex-direction: column;
+  }
+}
