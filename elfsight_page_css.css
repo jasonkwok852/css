@@ -1,0 +1,66 @@
+.flex-container-affiliate {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  padding:10px;
+}
+
+
+.step_title{
+  padding:5px;
+  text-align: center;
+  color:#ffffff;
+  font-size:25px;
+  font-weight:bold;
+}
+
+.elfsight_step_container_1{
+  background: #8A2387;  
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); 
+  justify-content: center;
+  width:100%;
+  height:auto;
+  margin-top:30px;
+  padding:30px;
+}
+
+.elfsight_step_container_2{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 10px;
+}
+
+.elfsight_step_container_3{
+  width:300px;
+  height:100px;
+  padding:10px;
+  border-radius: 25px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.step_number{
+  font-size:20px;
+  font-weight:900;
+  text-shadow: 2px 2px 4px #000000;
+  color:white;
+}
+
+.step_content{
+  font-size:16px;
+  font-weight:bold;
+}
+
+@media (max-width: 576px) { 
+.elfsight_step_container_2{
+   display: grid;
+   grid-template-columns: auto;
+}
+
+  .flex-container-affiliate {
+    flex-direction: column;
+}
+
+}
