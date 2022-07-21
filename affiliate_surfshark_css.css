@@ -23,10 +23,21 @@
   color:#009926;
 }
 
+.table_container{
+ width:100%;
+ overflow: auto;
+}
+
+td{
+  width:200px;
+  white-space:nowrap;
+}
+
 .td_title{
  font-size:10px;
  font-weight:bold;
 }
+
 
 .vpn_icon_img{
   border-radius: 10px;
