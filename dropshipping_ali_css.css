@@ -53,7 +53,48 @@
   background-color: #E52E04;
 }
 
-@media (max-width: 576px) {
+.aliexpress_button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.reason_button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+
+.checked {
+  color: orange;
+}
+
+.modal_reason_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ .modal_reason_container_box{
+  margin:5px;
+  padding:2px;
+  width:auto;
+  border-radius: 5px;
+  font-weight:bold;
+  font-size:10px;
+  border: 2px solid #2b133d;
+  background-color:#b2f900;
+  color:#2b133d;
+  text-align: left;
+}
+
+.rate_container{
+  width:100%;
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+
+@media (max-width: 600px) {
 .self_dropshipping_container {
      display: flex;
      flex-direction: column;
