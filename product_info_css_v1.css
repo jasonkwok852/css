@@ -1,0 +1,27 @@
+    .product-title{
+    color: #ffffff;
+  }
+
+  .product-tilte-div{
+    background-color: #000000;
+  }
+
+  .product-sub-title-div{
+   margin:0px;
+
+  }
+
+  .product-sub-title{
+    font-weight: bold;  
+    width:220px;
+    border-bottom: 5px solid #ff9900;
+    margin-bottom:0px;
+  }
+  
+  .product-description{
+    margin:0px;
+  }
+
+  hr.dotted {
+  border-top: 5px dotted #bbb;
+}
