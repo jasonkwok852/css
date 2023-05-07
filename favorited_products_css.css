@@ -1,0 +1,160 @@
+.title_text{
+	color: #ffffff;
+	text-shadow:2px 2px 4px #000000;
+	font-size:25px;
+}
+
+.title_category_text{
+	background:#000262;
+	background: -webkit-linear-gradient( to right, #000262, #fb9733);
+	background: linear-gradient(to right,#000262,#fb9733);
+	-webkit-background-clip: text;
+	background-clip:text;
+        color:transparent;
+	font-size:25px;
+}
+
+.list_container {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+}
+
+.product_number{
+  margin:10px;
+  padding:10px;
+  background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size:30px;
+  font-weight: bold;
+}
+
+.responsive_img {
+  width: 250px;
+  border-radius: 50%;
+  height:250px;
+  padding:2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button_icon{
+  width:25px;
+  height:25px;
+}
+
+
+.product_name{
+  margin-left:5px;
+  margin-top:40px;
+  font-size:20px;
+  font-weight:bold;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: #ff9933;
+}
+
+
+ .description_div{
+  margin-top:5px;
+  width:350px;
+  height:auto;
+  background-color: black;
+  color: white;
+}
+
+.button_container{
+  margin-top:5px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.amazon_button{
+ margin:3px;
+ padding:10px;
+ width:50px;
+ height:50px;
+ border-radius: 50%;
+ background-color: #232f3e;
+ text-align: center;
+ color:#ff9900;
+ font-size:15px;
+ font-weight: bold;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.amazon_button:hover {
+  opacity: 0.8;
+  color:#ffffff;
+}
+
+
+.taobao_button{
+ margin:3px;
+ padding:10px;
+ width:50px;
+ height:50px;
+ border-radius: 50%;
+ background-color: #fc4f00;
+ text-align: center;
+ color:#ffffff;
+ font-size:15px;
+ font-weight: bold;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.taobao_button:hover {
+  opacity: 0.8;
+  color:#ffffff;
+}
+
+.aliexpress_button{
+ margin:3px;
+ padding:10px;
+ width:50px;
+ height:50px;
+ border-radius: 50%;
+ background-color: #ff2d04;
+ text-align: center;
+ color:f79400;
+ font-size:15px;
+ font-weight: bold;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aliexpress_button:hover {
+  opacity: 0.8;
+  color:f79400;
+}
+
+.ebay_button{
+ margin:3px;
+ padding:10px;
+ width:50px;
+ height:50px;
+ border-radius: 50%;
+ background-color: #ffffff;
+ text-align: center;
+ color:#000000;
+ font-size:15px;
+ font-weight: bold;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ebay_button:hover {
+  opacity: 0.8;
+  color:#000000;
+}
+
+
+hr.dotted {
+  border-top: 2px dotted #bbb;
+}
+
+@media (max-width: 800px) {
+  .button_container{
+   flex-direction: column;
+}
+}
